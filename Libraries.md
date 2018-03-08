@@ -17,15 +17,17 @@ T.pack()
 master.loop()
 
 ```
-This code below will allow you to create buttons in the 'T' widget - 
+This code below will allow you to create buttons in the 'Frame' widget - 
 
 ```Python
 
-import tkinter
+import tkinter # Imports Tkinter into the program
 
 master = Tk()
-Frame = Text(master, length = 50, width = 30)
-Frame.pack()
+Frame = Text(master, length = 50, width = 30) # The text widget
+Frame.pack() # Tells where to be in the 'Frame' Widget
 
-button = Button(Frame, text="QUIT", command=quit)
+button = Button(Frame, text="QUIT", command=quit) # Creates the button
 button.pack(side = LEFT)
+
+master.mainloop() # Keeps the 'master' widget system running
