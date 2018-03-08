@@ -64,3 +64,20 @@ Os is another library with the capability to save and create files. With this fu
 
 import os.path
 ```
+The code below will allow you to save simple, text files using Os and Python 3.6 - 
+
+```Python
+
+import os.path
+
+Name = input("What is the name of the file: ")
+CompleteName = Name + ".txt"
+#Alter this line in any shape or form it is up to you.
+File = open(CompleteName , "w")
+
+toFile = raw_input("Write what you want into the field")
+
+File.write(toFile)
+
+File.close()
+```
