@@ -81,3 +81,38 @@ File.write(toFile)
 
 File.close()
 ```
+Adding Tkinter's functionality to accept entries, we can create a GUI way to interact with the user so that it can give the file name and address - 
+
+```Python
+
+import tkinter
+import os.path
+
+
+master = Tk()
+Label(master, text="File Name").grid(row=0)
+Label(master, text="File Address").grid(row=1)
+
+e1 = Entry(master)
+e2 = Entry(master)
+e1.pack()
+e2.pack()
+
+def Save():
+  data1 = e1.get()
+  data2 = e2.get()
+  
+  replace(data2, '\', '\\')
+  completeName = str(data2) + str(data) + '.txt'
+  print('completeName')
+  
+  file = open(completeName, 'w')
+  Text = 'Welcome to the Os library!'
+  file.write(Text)
+  file.close()
+  
+Button(text = 'Save', option = Save)
+Button.pack()
+
+mainloop( )
+```
