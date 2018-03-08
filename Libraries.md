@@ -54,3 +54,13 @@ button.pack(side = LEFT)
 
 master.mainloop() # Keeps the 'master' widget system running
 ```
+
+### Os
+
+Os is another library with the capability to save and create files. With this functionality, 'Os' and another manually-made class called
+'File_Management' together do the saving of the system. The path module located inside the 'Os' library is what nainly everybody uses.
+
+```Python
+
+import os.path
+```
