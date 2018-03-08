@@ -17,3 +17,15 @@ T.pack()
 master.loop()
 
 ```
+This code below will allow you to create buttons in the 'T' widget - 
+
+```Python
+
+import tkinter
+
+master = Tk()
+Frame = Text(master, length = 50, width = 30)
+Frame.pack()
+
+button = Button(Frame, text="QUIT", command=quit)
+button.pack(side = LEFT)
