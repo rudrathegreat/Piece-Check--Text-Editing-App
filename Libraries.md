@@ -1,5 +1,5 @@
 # Piece Check - Text Editing Application
-## Libaries
+## Libraries
 There are several libraries in this application, each handling a different part of the system. Let's look into them.
 
 ### Tkinter
@@ -34,3 +34,23 @@ button = Button(Frame, text="QUIT", command=quit) # Creates the button
 button.pack(side = LEFT)
 
 master.mainloop() # Keeps the 'master' widget system running
+```
+Along with other manually-made methods like -
+
+```Python
+
+import tkinter # Imports Tkinter into the program
+
+master = Tk()
+Frame = Text(master, length = 50, width = 30) # The text widget
+Frame.pack() # Tells where to be in the 'Frame' Widget
+
+def Say_Hello(): # Define Method
+  T.insert(END, 'Hello and this is my app') # This inserts text into the widget
+  print('Hello and this is my app')
+
+button = Button(Frame, text="QUIT", command=Say_Hello) # Creates the button
+button.pack(side = LEFT)
+
+master.mainloop() # Keeps the 'master' widget system running
+```
