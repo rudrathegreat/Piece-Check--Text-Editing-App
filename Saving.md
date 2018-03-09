@@ -23,7 +23,7 @@ def Save():
   data1 = e1.get()
   data2 = e2.get()
   
-  replace(data2, '\', '\\\\')
+  replace(data2, '\', '\\')
   completeName = str(data2) + str(data) + '.txt'
   print('completeName')
   
@@ -36,4 +36,26 @@ Button(text = 'Save', option = Save)
 Button.pack()
 
 mainloop( )
+```
+
+### How to get the Text
+
+So, how do you get the text? With the get command from tkinter, any text can be grabbed, copied and pasted into the file. If you haven't read about Tkinter or you do not understand, check out the Libraries documentation or the README 'overview'. The code for this is -
+
+```Python
+
+import tkinter
+
+master =  Tk()
+T = Text(master, length = 200, width = 100)
+T.pack()
+
+def get():
+  Text = T.get('1.0', END)
+  print(str(Text))
+  
+Button(master, text = 'Get Text', option = get)
+Button.pack(side = BOTTOM)
+
+master.mainloop()
 ```
