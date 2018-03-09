@@ -1,4 +1,4 @@
-# Piece Check - Text Editig Application
+# Piece Check - Text Editing Application
 ## Overview
 
 PieceCheck App – English Grammar and Spelling Checker
