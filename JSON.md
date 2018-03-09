@@ -10,31 +10,26 @@ You can think of the JSON format as a format with a parent and child in a form o
 
 ```JSON
 
-Rudra {
-  Config {
-    Age = 12
-    Gender = 'Male'
-    Height = 165
-    Weight = 45
-  }
-  Interests {
-    Interest_1 = 'Science'
-    Interest_2 = 'Computers'
-    Interest_3 = 'Writing'
-    Interest_4 = 'Sports'
-  } 
-  Hobbies {
-    Computers {
-      ComputerHobby_1 = 'Watching science videos'
-      ComputerHobby_2 = 'Creating applications'
-      ComputerHobby_3 = 'Creating documentations on Github'
+{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
     }
-    Sports {
-      SportHobby_1 = 'Playing Cricket'
-      SportHobby_2 = 'Playing Tennis'
-      SportHobby_3 = 'Playing Soccer'
-      SportHobby_4 = 'Playing Footy'
-    }
-  }
 }
 ```
