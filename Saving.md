@@ -59,3 +59,31 @@ Button.pack(side = BOTTOM)
 
 master.mainloop()
 ```
+
+### GUI
+
+GUI is the term used by computer professionals. GUI stands for Graphical User Interface and is what keeps the system user-friendly. Basically, if you want to save a file, you need some input of the file name and address. But you don't want the user to continually type his/her opinion in the Python Shell, so it is better if we add an entry widget. If you have got no idea of what I was just talking about, check the other documentation on this repository or surf on the internet for the answers. The code for the Entry Widget is - 
+
+```Python
+
+import tkinter
+
+
+master = Tk()
+Label(master, text="File Name").grid(row=0)
+Label(master, text="File Address").grid(row=1)
+
+e1 = Entry(master)
+e2 = Entry(master)
+e1.pack()
+e2.pack()
+
+master.mainloop()
+```
+
+### Combining Them Together
+
+Combining these three key principles of 'Os', Tkinter's 'get' command and Entry Widgets, we put these together to make one big saving process. But before we get into showing the code, it is best to understand the flow of the process and how everything fits in.
+
+When the program is run, there should be a widget where you type your text. It should have a button known as 'save'. If the button is pressed, an entry widget will appear asking for the file name and address. There will also be a button in the entry widget 
+i
