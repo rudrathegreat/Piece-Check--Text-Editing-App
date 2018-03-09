@@ -23,7 +23,7 @@ def Save():
   data1 = e1.get()
   data2 = e2.get()
   
-  replace(data2, '\', '\\')
+  replace(data2, '\', '\\\\')
   completeName = str(data2) + str(data) + '.txt'
   print('completeName')
   
