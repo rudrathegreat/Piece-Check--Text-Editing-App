@@ -7,6 +7,8 @@ There are several libraries in this application, each handling a different part 
 Tkinter is a built-in library that have the functions to create widgets, windows and button, so the system uses Tkinter to manage all the display and the GUI 
 interface.
 
+#### Text Widgets
+
 This code below allows you to create a widget - 
 
 ```Python
@@ -20,6 +22,9 @@ T.pack()
 master.loop()
 
 ```
+
+#### Buttons
+
 This code below will allow you to create buttons in the 'Frame' widget - 
 
 ```Python
@@ -64,6 +69,9 @@ Os is another library with the capability to save and create files. With this fu
 
 import os.path
 ```
+
+#### How to Save Using Python
+
 The code below will allow you to save simple, text files using Os and Python 3.6 - 
 
 ```Python
@@ -81,6 +89,9 @@ File.write(toFile)
 
 File.close()
 ```
+
+#### Adding Entry Widgets
+
 Adding Tkinter's functionality to accept entries, we can create a GUI way to interact with the user so that it can give the file name and address - 
 
 ```Python
