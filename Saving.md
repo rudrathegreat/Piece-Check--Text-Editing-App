@@ -122,7 +122,7 @@ def Get_Data():
   
   Button(master_1, text = 'Save', option = Save_Text)
   
-  master.mainloop()
+  master_1.mainloop()
    
 Button(master, text = 'Save Text', option = Get_Data)
 
