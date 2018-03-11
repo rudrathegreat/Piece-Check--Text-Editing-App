@@ -40,7 +40,7 @@ master.mainloop( )
 
 ### How to get the Text
 
-So, how do you get the text? With the ```Python  get()``` command from tkinter, any text can be grabbed, copied and pasted into the file. If you haven't read about Tkinter or you do not understand, check out the Libraries documentation or the README 'overview'. The code for this is -
+So, how do you get the text? With the get command from tkinter, any text can be grabbed, copied and pasted into the file. If you haven't read about Tkinter or you do not understand, check out the Libraries documentation or the README 'overview'. The code for this is -
 
 ```Python
 
