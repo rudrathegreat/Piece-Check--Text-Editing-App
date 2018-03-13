@@ -86,7 +86,7 @@ master.mainloop()
 Combining these three key principles of 'Os', Tkinter's 'get' command and Entry Widgets, we put these together to make one big saving process. But before we get into showing the code, it is best to understand the flow of the process and how everything fits in.
 
 When the program is run, there should be a widget where you type your text. It should have a button known as 'save'. If the button is pressed, an entry widget will appear asking for the file name and address. There will also be a button in the entry widget 
-known as 'save'. Once the values are given, then it will save the file in the folder with the specific name. When you open the file, you sholud have your text there.
+known as 'save'. Once the values are given, then it will save the file in the folder with the specific name. When you open the file, you should have your text there.
 
 ```Python
 
