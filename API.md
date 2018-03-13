@@ -16,4 +16,8 @@ This analogy comes from a youtube video. The link is just below -
 
 ### Connections
 
-Ginger-It is one of the two applications in the API process. If we connect the analogy with the 
+Ginger-It is one of the two applications in the API process. If we connect the analogy with the application, it goes like this - 
+
+We are the Piece Check application and 'Ginger It' is our menu. We ive the API a request and then the response comes back in a JSON format. If you want to see a JSON formatted file, then check out the JSON documentation on this repository.
+
+### A Mix Up
