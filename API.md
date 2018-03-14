@@ -21,3 +21,9 @@ Ginger-It is one of the two applications in the API process. If we connect the a
 We are the Piece Check application and 'Ginger It' is our menu. We ive the API a request and then the response comes back in a JSON format. If you want to see a JSON formatted file, then check out the JSON documentation on this repository.
 
 ### A Mix Up
+
+What is the difference between a Graphical User Interface and the Application User Interface?
+
+GUI, or  a Graphical User Interface is an interface between the the user and the application whereas a API, or a graphical user interface is an interface between two different applications. You may have noticed that Windows uses GUI to make their system user-friendly.
+
+A link to a video describing GUI in more detail is in the GUI documentation.
