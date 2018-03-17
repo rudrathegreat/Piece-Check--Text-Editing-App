@@ -12,7 +12,7 @@ Imagine you are in a restraunt and that all the food on the menu are the command
 
 This analogy comes from a youtube video. The link is just below -
 
-(https://www.youtube.com/watch?v=s7wmiS2mSXY)
+https://www.youtube.com/watch?v=s7wmiS2mSXY
 
 ### Connections
 
