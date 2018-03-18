@@ -127,3 +127,21 @@ Button.pack()
 
 mainloop( )
 ```
+
+### Ginger It, REST API
+
+The Ginger It open-source library for Python allows you to check for any mistakes in the user's text.
+
+There are two methods you can use but the one which we are going to use is the parse command -
+
+```Python
+
+from gingerit.gingerit import GingerIt
+
+text = 'My namr is Rudra. Eye lik to plai socer and I luv yuo.'
+
+parse(text)
+
+print(parse(text))
+
+```
