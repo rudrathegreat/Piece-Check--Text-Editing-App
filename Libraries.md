@@ -129,6 +129,7 @@ mainloop( )
 ```
 
 ### Ginger It, REST API
+#### The Parse Command
 
 The Ginger It open-source library for Python allows you to check for any mistakes in the user's text.
 
