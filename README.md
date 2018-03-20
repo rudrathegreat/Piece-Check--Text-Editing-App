@@ -15,4 +15,5 @@ Technology wise, this application is written in Python 3.6 and uses libraries su
 The application has loosely coupled components such as File Management, Widget & display management, Grammar checker, Error handler and is easily replaceable or upgradable.  
 
 The aim of this project is to help other students with their stories and publications. It may help people while they are publishing or it may just be there as a reference. Most students do miss a few mistakes, so it may be used as a second pair of eyes. Plus, it may be an    inspiration for others which is why I put it up here on Git Hub.
+
 ------------------------------------------------------------------------------------------------------------------------------------------
