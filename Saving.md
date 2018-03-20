@@ -2,6 +2,8 @@
 ## The Saving Part of the System
 ### Os Revisited
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 Os is the library that handles all the saving process of the system. If you want to have a in-depth read of 'Os', then check out the Libraries documentation. Recalling from the Libraries documentation, a simple way to save a file using 'Os' is shown below - 
 
 ```Python
@@ -38,7 +40,11 @@ Button.pack()
 master.mainloop( )
 ```
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 ### How to get the Text
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 So, how do you get the text? With the get command from tkinter, any text can be grabbed, copied and pasted into the file. If you haven't read about Tkinter or you do not understand, check out the Libraries documentation or the README 'overview'. The code for this is -
 
@@ -60,7 +66,12 @@ Button.pack(side = BOTTOM)
 master.mainloop()
 ```
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 ### GUI
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 
 GUI is the term used by computer professionals. GUI stands for Graphical User Interface and is what keeps the system user-friendly. Basically, if you want to save a file, you need some input of the file name and address. But you don't want the user to continually type his/her opinion in the Python Shell, so it is better if we add an entry widget. If you have got no idea of what I was just talking about, check the other documentation on this repository or surf on the internet for the answers. The code for the Entry Widget is - 
 
@@ -81,7 +92,11 @@ e2.pack()
 master.mainloop()
 ```
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 ### Combining Them Together
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 Combining these three key principles of 'Os', Tkinter's 'get' command and Entry Widgets, we put these together to make one big saving process. But before we get into showing the code, it is best to understand the flow of the process and how everything fits in.
 
@@ -128,3 +143,5 @@ Button(master, text = 'Save Text', option = Get_Data)
 
 master.mainloop()
 ```
+
+----------------------------------------------------------------------------------------------------------------------------------------
