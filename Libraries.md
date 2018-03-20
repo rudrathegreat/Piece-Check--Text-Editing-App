@@ -69,7 +69,7 @@ master.mainloop() # Keeps the 'master' widget system running
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 Os is another library with the capability to save and create files. With this functionality, 'Os' and another manually-made class called
-'File_Management' together do the saving of the system. The path module located inside the 'Os' library is what nainly everybody uses.
+'File_Management' together do the saving of the system. The path module located inside the 'Os' library is what mainly everybody uses.
 
 ```Python
 
@@ -139,11 +139,12 @@ mainloop( )
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 ### Ginger It, REST API
-#### The Parse Command
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-The Ginger It open-source library for Python allows you to check for any mistakes in the user's text.
+The Ginger It open-source library for Python allows you to check for any mistakes in the user's text. It uses and API known as Ginger It and sends requests to the API and receives a response. If you want to learn more about the API, the you can check out the API documentation.
+
+#### The Parse Command
 
 There are two methods you can use but the one which we are going to use is the parse command -
 
