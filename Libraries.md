@@ -1,8 +1,11 @@
 # Piece Check - Text Editing Application
 ## Libraries
+
 There are several libraries in this application, each handling a different part of the system. Let's look into them.
 
 ### Tkinter
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 Tkinter is a built-in library that have the functions to create widgets, windows and button, so the system uses Tkinter to manage all the display and the GUI 
 interface.
@@ -59,8 +62,11 @@ button.pack(side = LEFT)
 
 master.mainloop() # Keeps the 'master' widget system running
 ```
+----------------------------------------------------------------------------------------------------------------------------------------
 
 ### Os
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 Os is another library with the capability to save and create files. With this functionality, 'Os' and another manually-made class called
 'File_Management' together do the saving of the system. The path module located inside the 'Os' library is what nainly everybody uses.
@@ -89,8 +95,11 @@ File.write(toFile)
 
 File.close()
 ```
+----------------------------------------------------------------------------------------------------------------------------------------
 
 #### Adding Entry Widgets
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 Adding Tkinter's functionality to accept entries, we can create a GUI way to interact with the user so that it can give the file name and address - 
 
@@ -127,9 +136,12 @@ Button.pack()
 
 mainloop( )
 ```
+----------------------------------------------------------------------------------------------------------------------------------------
 
 ### Ginger It, REST API
 #### The Parse Command
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 The Ginger It open-source library for Python allows you to check for any mistakes in the user's text.
 
@@ -146,3 +158,5 @@ parse(text)
 print(parse(text))
 
 ```
+
+----------------------------------------------------------------------------------------------------------------------------------------
