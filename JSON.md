@@ -2,9 +2,15 @@
 ## JSON Format
 ### What is Received
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 When the respons from the API is received, it is received in a format known as JSON. This JSON Format is used everywhere, esecially when there is the use of communication between applicaions via API.
 
+----------------------------------------------------------------------------------------------------------------------------------------
+
 ### How it is Formatted
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 You can think of the JSON format as a format with a parent and child in a form of hierarchy. A good analogy of this is when you look at family trees. An example of a file formatted using JSON is shown below - 
 
@@ -33,3 +39,5 @@ You can think of the JSON format as a format with a parent and child in a form o
     }
 }
 ```
+
+----------------------------------------------------------------------------------------------------------------------------------------
