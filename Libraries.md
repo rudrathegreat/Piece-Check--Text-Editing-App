@@ -164,4 +164,36 @@ Make sure that your text has some errors in it. The correct sentence was -
 
 *'My name is Rudra. I like to play soccer and I love you.'*
 
+#### API Communication
+
+Ginger It also communicates with an API so that it can easily correct any mistakes. It gives the API the text and the API gives a response with all the errors in it back to the application. This response is in the form of a JSON format -
+
+```JSON
+
+{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+}
+```
+
+It is then processed for the user to see.
+
 ---------------------------------------------------------------------------------------------------------------------------------------
