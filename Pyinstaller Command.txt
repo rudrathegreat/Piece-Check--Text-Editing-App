@@ -1,1 +1,5 @@
-D:\USB_BackUp\Rudra\Computer\Eclipse\workspace\PieceCheck\Piece_Check>pyinstaller -F  PieceCheck.py --paths "D:\USB_BackUp\Rudra\Computer\Eclipse\workspace\PieceCheck\Piece_Check\File_Management\Management.py"D:\work\Piece_Check\Piece_Check>pyinstaller -F  "D:\work\Piece_Check\Piece_Check\PieceCheck.py" --paths "D:\work\Piece_Check\Piece_Check\File_Management\Management.py"D:\work\Piece_Check\Piece_Check>pyinstaller -F  PieceCheck.py --paths "D:\work\Piece_Check\Piece_Check\File_Management\Management.py":"C:\Users\s72566\AppData\Local\Programs\Python\Python36-32\Lib\site-packages"
+D:\directory\folder>pyinstaller -F  PieceCheck.py --paths
+"D:\directory\folder\File_Management\Management.py"
+D:\directory\folder>pyinstaller -F  "D:\directory\folder\PieceCheck.py" --paths
+"D:\directory\folder\File_Management\Management.py"
+D:\directory\folder>pyinstaller -F  PieceCheck.py --paths "D:\directory\folder\File_Management\Management.py":"C:\Users\s72566\AppData\Local\Programs\Python\Python36-32\Lib\site-packages"
